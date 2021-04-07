@@ -1,0 +1,118 @@
+* {
+	margin: 0px;
+	padding: 0px;
+
+	font-family: 'Varela Round', sans-serif;
+	scroll-behavior: smooth;
+}
+body{
+	background-image: url('images/green.png');
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-color:white;
+	
+	
+}
+
+li{
+	float: left;
+	list-style: none;
+}
+
+
+ul {
+	background-color: #2b2828;
+	overflow: auto;
+}
+
+li a{
+	color:white;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+}
+li a:hover{
+	background-color: white;
+	color:black;	
+
+}
+.clearfix::after {
+	clear: both;
+	display: table;
+	content: '';
+}
+
+#myeducation .edwork{
+	width: 25%;
+	float: left;
+	margin-left: 3%;
+	background-color: white;
+	padding: 10px;
+	opacity: 90%;
+	margin-top: 20px;
+}
+#myeducation .edwork img{
+	width: 100%;
+}
+#myeducation .edwork h1{
+	margin-top: 5px;
+	color: black;
+	text-align: center;
+
+}
+#myeduaction .edwork p{
+	margin-top: 5px;
+	color: black;
+	text-align:center;
+	word-spacing: 10px;
+}
+
+
+#myeduaction .edtitle{
+	margin-left: 5%;
+	text-align: center;
+	font-size: 45px;
+	color:black;
+	padding:10px;
+
+}
+#myeduaction {
+	padding-bottom: 20%;
+	margin-top: 10%;
+	margin-left: 5%;
+	
+}
+
+footer{
+
+	background-color: black;
+	padding-top: 5%
+	padding-bottom:5%;
+	color: white;
+	text-align: center;
+}
+footer .gmail{
+	margin-top: 2%;
+}
+footer .address{
+		margin-top: 3%;
+
+}
+footer .social{
+	margin-top: 5%;
+	word-spacing: 35px;
+}
+.copyright{
+	padding:30px;
+	text-align: center;
+	color: white;
+	background-color: #3333b3;
+}
+.fixbutton{
+	font-size: 45px;
+	color:white;
+	position: fixed;
+	bottom:2%;
+	right:1%;
+}
+

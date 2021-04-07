@@ -3,12 +3,13 @@
 	padding: 0px;
 
 	font-family: 'Varela Round', sans-serif;
+	scroll-behavior: smooth;
 }
 body, html{
 	background-image: url('images/hd.png');
-	background-size: cover;
-	
-	
+	background-size: contain;
+	background-repeat:no-repeat;
+	background-color:white;
 	
 	
 }
@@ -172,6 +173,7 @@ li a:hover{
 }
 #myportolio{
 	padding-bottom: 20%;
+	margin-top: 5%;
 
 }
 
@@ -192,11 +194,56 @@ footer .address{
 }
 footer .social{
 	margin-top: 5%;
-	word-spacing: 40px;
+	word-spacing: 35px;
 }
 .copyright{
 	padding:30px;
 	text-align: center;
 	color: white;
 	background-color: #3333b3;
+}
+.fixbutton{
+	font-size: 45px;
+	color:white;
+	position: fixed;
+	bottom:2%;
+	right:1%;
+}
+
+#myeducation .edwork{
+	width: 25%;
+	float: left;
+	margin-left: 3%;
+	background-color: black;
+	padding: 10px;
+	opacity: 90%;
+	margin-top: 10px;
+}
+#myeducation .edwork img{
+	width: 100%;
+}
+#myeducation .edwork h1{
+	margin-top: 5px;
+	color: white;
+	text-align: center;
+
+}
+#myeduaction .edwork p{
+	margin-top: 5px;
+	color: white;
+}
+
+
+#myeduaction .edtitle{
+	margin-left: 3%;
+	font-size: 35px;
+	margin-bottom: 10px;
+
+}
+#myeduaction {
+	padding-bottom: 20%;
+	margin-top: 5%;
+	background-image: url('images/spot.png');
+	background-size: contain;
+
 }
