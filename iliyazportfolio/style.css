@@ -1,10 +1,16 @@
 * {
 	margin: 0px;
 	padding: 0px;
+
+	font-family: 'Varela Round', sans-serif;
 }
-body{
-	background-image: url('images/tri.jpg');
+body, html{
+	background-image: url('images/hd.png');
 	background-size: cover;
+	
+	
+	
+	
 }
 
 li{
@@ -31,21 +37,166 @@ li a:hover{
 }
 #intro .info{
 		float: left;
-		margin-left: 15%;
+		margin-left: 11%;
 		margin-top: 10%;
-		color: white;
-		background-color: black;
-		padding: 10px;
-		opacity: 80%;
+		color:black;
+		background-color: white;
+		padding: 20px;
+		opacity: 90%;
+		border-left: 5px solid #000000; 
+    	border-bottom: 5px solid #000000; 
 }
 #intro .pic{
 	width:25%;
 	float: left;
-	margin-top: 8%;
-	margin-left: 15%;
+	margin-top: 9%;
+	margin-left: 10%;
 }
 #intro .pic img{
 	width: 50%;
 	border-radius: 50%;
-	border: 3px solid orange;
+	border: 3px solid black;
+	
+}
+#myworks{
+	margin-top: 5%;
+	margin-bottom: 5%%;
+}
+#myworks .works{
+	background-color: #0bf567;
+	color:  black;
+	width:30%;
+	float: left;
+	margin-left: 1%;
+	padding: 12px;
+	text-align: center;
+	opacity: 85%;
+	margin-top: 10px;
+
+}
+#myworks .works h1{
+	padding:6px;
+	font-size: 30px;
+
+}
+#myworks .works p{
+	padding:6px;
+	font-size: 20px;
+
+}
+#myworks .title{
+	margin-left: 1%;
+	margin-bottom: 2%;
+	font-size: 35px;
+	padding: 10px;
+	color: red;
+	text-align: center;
+
+}
+
+#myskills .title{
+	margin-left: 1%;
+	font-size: 35px;
+}
+#myskills .skill{
+	width: 9%;
+	float:left;
+	text-align: center;
+	margin-left: 2%;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+#myskills .skill img{
+	width: 100%;
+	transition-property: transform;
+	transition-duration: 1s;
+	
+}
+#myskills .skill img:hover {
+	transform: rotate(360deg);
+	
+}
+#myskills.skill h1{
+	font-size: 15px;
+}
+#myskills {
+	margin-top: 5%;
+	margin-left: 2%;
+}
+
+.clearfix::after {
+	clear: both;
+	display: table;
+	content: '';
+}
+
+.red {
+	color: red;
+}
+.green {
+	color:green;
+}
+.yellow{
+	color: yellow;
+}
+
+#myportfolio .work{
+	width: 25%;
+	float: left;
+	margin-left: 3%;
+	background-color: black;
+	padding: 10px;
+	opacity: 90%;
+	margin-top: 10px;
+}
+#myportfolio .work img{
+	width: 100%;
+}
+#myportfolio .work h1{
+	margin-top: 5px;
+	color: white;
+	text-align: center;
+
+}
+#myportfolio .work p{
+	margin-top: 5px;
+	color: white;
+}
+
+
+#myportfolio .title{
+	margin-left: 3%;
+	font-size: 35px;
+	margin-bottom: 10px;
+
+}
+#myportolio{
+	padding-bottom: 20%;
+
+}
+
+footer{
+
+	background-color: black;
+	padding-top: 5%
+	padding-bottom:5%;
+	color: white;
+	text-align: center;
+}
+footer .gmail{
+	margin-top: 2%;
+}
+footer .address{
+		margin-top: 3%;
+
+}
+footer .social{
+	margin-top: 5%;
+	word-spacing: 40px;
+}
+.copyright{
+	padding:30px;
+	text-align: center;
+	color: white;
+	background-color: #3333b3;
 }
