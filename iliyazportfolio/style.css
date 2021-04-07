@@ -1,0 +1,51 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url('images/white.jpg');
+	background-size: cover;
+}
+
+li{
+	float: left;
+	list-style: none;
+}
+
+
+ul {
+	background-color: #2b2828;
+	overflow: auto;
+}
+
+li a{
+	color:white;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+}
+li a:hover{
+	background-color: white;
+	color:black;	
+
+}
+#intro .info{
+		float: left;
+		margin-left: 15%;
+		margin-top: 10%;
+		color: white;
+		background-color: black;
+		padding: 10px;
+		opacity: 80%;
+}
+#intro .pic{
+	width:25%;
+	float: left;
+	margin-top: 8%;
+	margin-left: 15%;
+}
+#intro .pic img{
+	width: 50%;
+	border-radius: 50%;
+	border: 3px solid orange;
+}
